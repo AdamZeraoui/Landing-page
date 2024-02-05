@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins";
-
+    display: flexbox;
 }
 #container{
     display: flex;
@@ -55,8 +55,12 @@ article{
     flex-flow: column;
 }
 
+figure{
+    min-width : 100vh;
+}
 .illu img{
-    min-width: 35vw;
+    display: flex;
+    width : 100%;
 }
 /*Pas fini !*/
 
