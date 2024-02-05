@@ -7,14 +7,34 @@
 }
 #container{
     display: flex;
-    min-width: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
     align-items:center;
     justify-content: center;
     background: radial-gradient(rgb(139, 195, 245), #1294b8);
 }
 .top{
-    flex-direction: row;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
 }
+.navig{
+    margin-right: 50px;
+}
+nav{
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
 ul{
+    display: flex;
     list-style: none;
+}
+
+li{
+    padding : 10px;
 }
