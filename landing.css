@@ -13,15 +13,16 @@
     justify-content: center;
     background: radial-gradient(rgb(139, 195, 245), #1294b8);
 }
+header{
+    width: 100%;
+    height: 100%;
+}
 .top{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 10px;
-}
-.navig{
-    margin-right: 50px;
 }
 nav{
 
@@ -37,4 +38,31 @@ ul{
 
 li{
     padding : 10px;
+}
+/*Pas fini !*/
+.sub{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 50%;
+    padding-bottom: 10px;
+
+}
+
+article{
+    
+    display: flex;
+    flex-flow: column;
+}
+
+.illu img{
+    min-width: 35vw;
+}
+/*Pas fini !*/
+
+.subtitle{
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    width: 100%;
 }
