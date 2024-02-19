@@ -23,6 +23,7 @@ header{
     align-items: center;
     justify-content: space-around;
     padding-top: 10px;
+    color: white;
 }
 nav{
 
@@ -44,18 +45,30 @@ li{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    width: 50%;
+   /*width: 50%;*/
     padding-bottom: 10px;
-
 }
 
 article{
     
     display: flex;
     flex-flow: column;
+    align-items: center;
+    padding : 160px
+}
+
+article h2{
+    font-size : 60px;
+}
+
+article p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size : 30px;
 }
 
 figure{
+    padding : 50px;
     min-width : 100vh;
 }
 .illu img{
@@ -69,4 +82,13 @@ figure{
     background-color: white;
     padding: 50px;
     width: 100%;
+}
+.Subscribe{
+    /*display : flex;
+    justify-content: center;
+    align-items: center;*/
+    font-size: 25px;
+    /*position: absolute;*/
+    left:1000px;
+    /*transition: 0.5s;*/
 }
