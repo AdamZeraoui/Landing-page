@@ -178,42 +178,82 @@ form {
     padding-top: 100px;
     display :flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 .mainTitle p{
     color:rgb(153, 153, 153);
 }
-
+.stat-team{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
 .allTeam{
     display: flex;
-    flex-flow: row;
-    justify-content: space-evenly;
+    flex-flow: row nowrap;
+    justify-content: center;
 }
+
+
 .team{
+    display: flex;
     flex-flow: column;
     margin: 10px;
     transition: 2s;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+}
+
+.team p{
+    color:rgb(153, 153, 153);
 }
 
 .team-header{
     overflow: hidden;
-    width: 50%;
-    height: 50%;
     position: relative;
     margin:10px;
-    width: 200px;
-    height:200px;
+    width: 250px;
+    height:250px;
     border-radius:100%;
+
 
 }
 .team-header img{
-    
     height: 100%;
     width: 100%;
-    object-fit: cover;
     filter: grayscale(100%);
     transition: 0.5s;
 
 }
+
+.team-header:hover img{
+    filter: none;
+    transform: scale(1.1);
+}
+
+.team-network{
+    display: flex;
+    font-size: 20px;
+    position: absolute;
+    top:-5px;
+    left: -50px;
+    transition: 1s;
+    flex-direction: column;
+
+}
+
+.team-header:hover .team-network{
+    left:30px;
+    top:50px
+}
+
+.team-network i{
+    
+    padding: 5px;
+    margin:5px;
+    background-color: white;
+    border-radius: 100%;
+}
+
