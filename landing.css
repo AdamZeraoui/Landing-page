@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +9,6 @@
 }
 #container{
     display: flex;
-    min-width: 100vw;
     min-height: 100vh;
     align-items:center;
     justify-content: center;
@@ -45,37 +46,70 @@ li{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-   /*width: 50%;*/
     padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-article{
+.text{
     
     display: flex;
     flex-flow: column;
-    align-items: center;
-    padding : 160px
+    justify-content: center;
+    padding : 100px;
+    width: 75vw;
+    height: 100vh;
+
 }
 
 article h2{
     font-size : 60px;
+    line-height :70px
 }
 
 article p{
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size : 30px;
+    font-size : 20px;
 }
 
-figure{
-    padding : 50px;
-    min-width : 100vh;
+.pic {
+    width:100vw;
+    padding : 100px;
 }
-.illu img{
+
+form {
+    padding: 7px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.form-row {
     display: flex;
-    width : 100%;
+    justify-content: space-between;
 }
-/*Pas fini !*/
+
+.Subscribe{
+    border-radius: 50px;
+    border-style: none;
+    padding: 10px;
+    background-color: rgb(58, 142, 221);
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-transform: uppercase;
+}
+#email{
+    border-style: none;
+    padding-right: 150px;
+    padding-left: 10px;
+    border-radius: 30px;
+    outline-style: none;
+}
+
+.Subscribe:hover{
+    filter: saturate(150%);
+}
 
 .subtitle{
     text-align: center;
@@ -83,12 +117,25 @@ figure{
     padding: 50px;
     width: 100%;
 }
-.Subscribe{
-    /*display : flex;
+
+#allCard {
+    display: flex;
+    align-items:center;
     justify-content: center;
-    align-items: center;*/
-    font-size: 25px;
-    /*position: absolute;*/
-    left:1000px;
-    /*transition: 0.5s;*/
+    background-color: white;
+}
+.card h1{
+    padding-bottom: 10px;
+}
+.card{
+    margin: 10px;
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: 2s;
+    background: radial-gradient(rgb(139, 195, 245), #1294b8);
+    color: white;
 }
