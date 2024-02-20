@@ -185,3 +185,35 @@ form {
     color:rgb(153, 153, 153);
 }
 
+.allTeam{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+.team{
+    flex-flow: column;
+    margin: 10px;
+    transition: 2s;
+    text-align: center;
+}
+
+.team-header{
+    overflow: hidden;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    margin:10px;
+    width: 200px;
+    height:200px;
+    border-radius:100%;
+
+}
+.team-header img{
+    
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: 0.5s;
+
+}
