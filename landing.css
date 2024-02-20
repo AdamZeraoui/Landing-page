@@ -26,11 +26,15 @@ header{
     padding-top: 10px;
     color: white;
 }
+.top h1{
+    font-size: 40px;;
+}
 nav{
-
+    font-size: 20px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    text-transform: uppercase;
 }
 
 ul{
@@ -38,9 +42,12 @@ ul{
     list-style: none;
 }
 
-li{
+ul a{
+    color: white;
     padding : 10px;
+    text-decoration: none;
 }
+
 /*Pas fini !*/
 .sub{
     display: flex;
@@ -116,6 +123,8 @@ form {
     background-color: white;
     padding: 50px;
     width: 100%;
+    font-size: 25px;
+
 }
 
 #allCard {
@@ -128,14 +137,22 @@ form {
     padding-bottom: 10px;
 }
 .card{
-    margin: 10px;
-    padding: 50px;
+    margin: 20px;
+    padding-top: 90px;
     border-radius: 15px;
     text-align: center;
-    overflow: hidden;
-    width: 300px;
+    width: 800px;
+    height: 400px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     transition: 2s;
     background: radial-gradient(rgb(139, 195, 245), #1294b8);
     color: white;
+}
+
+.card:hover{
+    transform: translateY(-5%);
+}
+
+.card-header{
+    font-size: 50px;
 }
