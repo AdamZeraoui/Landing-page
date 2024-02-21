@@ -37,12 +37,12 @@ nav{
     text-transform: uppercase;
 }
 
-ul{
+.top ul{
     display: flex;
     list-style: none;
 }
 
-ul a{
+.top ul a{
     color: white;
     padding : 10px;
     text-decoration: none;
@@ -333,16 +333,16 @@ form {
 
 }
 
-.logo-list ul{
+
+.logo ul{
+    list-style: none;
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
-    filter : opacity(50%);
-    transform: scale(0.35);
 
+    filter : opacity(40%);
+    transform: scale(0.35);
 }
 
-.logo-list li{
+.logo li{
 
 }
