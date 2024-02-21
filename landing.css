@@ -321,3 +321,28 @@ form {
     background-color: white;
     transform: translateY(-10%);
 }
+.logo{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 150px;
+}
+
+.logo p{
+    color:rgb(153, 153, 153);
+    padding-bottom: 150px;
+
+}
+
+.logo-list ul{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    filter : opacity(50%);
+    transform: scale(0.35);
+
+}
+
+.logo-list li{
+
+}
