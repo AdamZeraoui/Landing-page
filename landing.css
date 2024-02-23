@@ -185,9 +185,7 @@ form {
     color:rgb(153, 153, 153);
 }
 .stat-team{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
+
     padding-bottom: 50px;
 }
 .allTeam{
@@ -322,6 +320,8 @@ form {
     transform: translateY(-10%);
 }
 .logo{
+    display: flex;
+    flex-flow: column;
     text-align: center;
     font-size: 25px;
     padding-top: 150px;
@@ -336,13 +336,35 @@ form {
 
 .logo ul{
     list-style: none;
-    display: flex;
+    display: inline-flex;
     flex-flow: row nowrap;
-
+    justify-content: space-around;
     filter : opacity(40%);
-    transform: scale(0.35);
+    padding-bottom: 150px;
 }
 
 .logo li{
+    transform: scale(0.35);
+}
+
+.creativity{
+    display: flex;
+    flex-flow: row;
+}
+.headtext{
+    text-wrap: balance;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding : 100px;
+}
+
+.stattext{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
 
 }
