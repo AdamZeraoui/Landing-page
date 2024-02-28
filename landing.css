@@ -339,12 +339,17 @@ form {
     display: inline-flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    filter : opacity(40%);
+
     padding-bottom: 150px;
 }
 
 .logo li{
+    filter : opacity(40%);
     transform: scale(0.35);
+}
+.logo li:hover{
+    filter: opacity(100%);
+    transform: scale(0.40);
 }
 
 .creativity{
@@ -366,5 +371,10 @@ form {
     padding-bottom: 10px;
     padding-left: 50px;
     padding-right: 50px;
+
+}
+.stattext h4{
+   padding-bottom: 10px;
+   font-size: 40px;
 
 }
