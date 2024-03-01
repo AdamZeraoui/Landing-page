@@ -386,6 +386,9 @@ border-radius: 10px;
 border-color: white;
 font-size: 25px;
 transition: 0.5s;
-position: relative;
 
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
 }
