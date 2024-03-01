@@ -379,16 +379,14 @@ form {
 }
 
 .learn{
-    
 background-color: rgb(58, 142, 221);
 color: white;
 border-radius: 10px;
 border-color: white;
 font-size: 25px;
 transition: 0.5s;
+padding-top: 10px;
+padding-bottom: 10px;
 
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-bottom: 10px;
+margin-right: 500px;
 }
