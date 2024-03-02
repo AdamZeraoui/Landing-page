@@ -502,3 +502,21 @@ top : -20px
 .right{
     text-align: end;
 }
+
+.sale{
+    background-color: rgb(49, 117, 180);
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+    width: 50px;
+    justify-content: end;
+    position: relative;
+    top : -40px;
+    left : 306px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.adv{
+    margin-top: -60px;
+}
