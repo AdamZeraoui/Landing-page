@@ -520,3 +520,48 @@ top : -20px
 .adv{
     margin-top: -60px;
 }
+
+.blog-content{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    
+}
+
+.blog{
+    padding: 25px;
+}
+.picture{
+    display: flex;
+    justify-content: center;
+}
+.picture img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.blog h3{
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+}
+
+.blog p{
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+}
+
+.blog a{
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    font-size: 20px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #1294b8;
+}
